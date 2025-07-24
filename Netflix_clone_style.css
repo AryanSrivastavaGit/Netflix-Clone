@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.first {
+    height: 102.5vh;
+    background-image: url(images/NetflixBGimage.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.first_shadow {
+    height: 102.5%;
+    width: 100%;
+    background-color: black;
+    filter: opacity(75%);
+    position: absolute;
+}
+
+nav {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 5%;
+}
+
+.nav_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.nav_button>button:nth-child(1) {
+    background-color: rgba(32, 30, 30, 0.792);
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav_button>button:nth-child(2) {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_button>button {
+    padding: 7px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.middle_content {
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.content1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.content4 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+}
+
+input {
+    background-color: rgba(30, 29, 29, 0.683);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    width: 400px;
+}
+
+.content4>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.second {
+    width: 100%;
+    height: 8vh;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+}
+
+.second_curve {
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 10%;
+}
+
+.second_curve_shadow {
+    margin: auto;
+    width: 40%;
+    box-shadow: 0px 40px 60px 10px#004A94;
+}
+
+
+
+.third {
+    width: 72%;
+    margin: 10px auto;
+    align-content: end;
+    color: white;
+}
+
+
+
+.fourth {
+    display: flex;
+    width: 72%;
+    margin: auto;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 45px;
+    padding: 0px 10px;
+}
+
+.fourth>span>img {
+    border-radius: 10px;
+    width: 180px;
+}
+
+.fourth>span>p {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -120px;
+    left: -10px;
+}
+
+
+
+.fifth {
+    width: 75%;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: -50px;
+}
+
+
+
+.sixth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    top: -30px;
+}
+
+.sixth_card {
+    width: 230px;
+    height: 330px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    color: white;
+    border-radius: 20px;
+}
+
+.sixth_card_text1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px 15px;
+}
+
+.sixth_card_text2 {
+    font-size: 17px;
+    padding: 0px 15px;
+}
+
+
+
+.seventh {
+    width: 75%;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.seventh_text {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(45, 45, 45);
+    font-size: large;
+    cursor: pointer;
+}
+
+.seventh_text:hover {
+    background-color: rgb(69, 66, 66);
+}
+
+
+
+.eight {
+    width: 80vw;
+    margin: 50px auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.eight_input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.eight_input>input {
+    background-color: rgba(30, 29, 29, 0.683);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    width: 400px;
+}
+
+.eight_input>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+footer {
+    width: 80%;
+    margin: auto;
+    color: gray;
+}
+
+footer>div:first-child {
+    padding-bottom: 30px;
+}
+
+footer>div:nth-child(2) {
+    width: 100%;
+    margin: auto;
+    color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+footer>button {
+    padding: 7px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(32, 30, 30, 0.792);
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px) {
+    .first {
+        height: 70vh;
+    }
+
+    .first_shadow {
+        height: 70%;
+    }
+
+    nav {
+        width: 95vw;
+    }
+
+    .middle_content {
+        top: 15%;
+        padding: 15px;
+    }
+
+    .content1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .content2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .content3 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .content4 {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .sixth {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sixth_card {
+        width: 330px;
+        height: 200px;
+    }
+
+    .seventh_text {
+        width: 90%;
+        font-size: medium;
+        padding: 15px;
+    }
+}
